@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Maintenance Management Dashboard</h1>
+    </header>
+    <main>
+        <section id="pending-requests">
+            <h2>Pending Requests</h2>
+            <ul id="pending-requests-list">
+                <li>
+                    <a href="#" id="pending-request-1">Leak in bathroom sink</a>
+                    <span class="status">Pending</span>
+                    <span class="assigned-to">Technician John Smith</span>
+                    <span class="updated-at">Updated: 2023-12-08 10:45</span>
+                </li>
+                <li>
+                    <a href="#" id="pending-request-2">Broken light fixture in hallway</a>
+                    <span class="status">Pending</span>
+                    <span class="assigned-to">Technician Jane Doe</span>
+                    <span class="updated-at">Updated: 2023-12-08 10:40</span>
+                </li>
+            </ul>
+        </section>
+        <section id="open-requests">
+            <h2>Open Requests</h2>
+            <ul id="open-requests-list">
+                <li>
+                    <a href="#" id="open-request-1">Blocked toilet in apartment 3B</a>
+                    <span class="status">Open</span>
+                    <span class="assigned-to">Technician David Jones</span>
+                    <span class="updated-at">Updated: 2023-12-08 09:30</span>
+                </li>
+            </ul>
+        </section>
+        <section id="closed-requests">
+            <h2>Closed Requests</h2>
+            <ul id="closed-requests-list">
+                <li>
+                    <a href="#" id="closed-request-1">Air conditioning unit not working in apartment 2A</a>
+                    <span class="status">Closed</span>
+                    <span class="resolved-by">Technician Peter Brown</span>
+                    <span class="updated-at">Resolved: 2023-12-08 08:15</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
